@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "742602238118",
+    "firebase_url": "https://firsebase-login-signup.firebaseio.com",
+    "project_id": "firsebase-login-signup",
+    "storage_bucket": "firsebase-login-signup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742602238118:android:4a5d6322e6f2b00c362c67",
+        "android_client_info": {
+          "package_name": "com.example.firebase_chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742602238118-ra9uprv7kqv58n2iuvacofb6rurbj054.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACxcmm42kRcmmQJf33ulzRHD4SLoT-s_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742602238118-ra9uprv7kqv58n2iuvacofb6rurbj054.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

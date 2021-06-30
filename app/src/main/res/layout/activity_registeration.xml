@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registerationActivity">
+    <include layout="@layout/app_bar" android:id="@+id/reg_app_bar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Account "
+        android:textSize="30sp"
+        android:layout_margin="30sp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/reg_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="30sp"
+        android:layout_marginHorizontal="20sp"/>
+    <EditText
+        android:id="@+id/reg_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="30sp"
+        android:layout_marginHorizontal="20sp"/>
+    <EditText
+        android:id="@+id/reg_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:layout_marginTop="30sp"
+        android:layout_marginHorizontal="20sp"/>
+    <Button
+        android:id="@+id/reg_button"
+        android:layout_marginTop="50dp"
+        android:text="Sign Up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

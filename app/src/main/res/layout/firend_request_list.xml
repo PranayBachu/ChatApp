@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/request_list_image"
+            android:layout_marginTop="35dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/is"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/request_list_name"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:hint="Display Name"/>
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/request_list_accept_button"
+               android:text="Accept Request"
+               android:layout_margin="10dp"
+
+
+               android:background="#3AA83F"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/request_list_reject_button"
+                android:paddingHorizontal="15dp"
+                android:text="Decline Request"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="5dp"
+                android:background="#EA0D1F"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
